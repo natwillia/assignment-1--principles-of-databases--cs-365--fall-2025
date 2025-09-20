@@ -1,0 +1,35 @@
+<!ELEMENT student-records (student+)>
+
+<!ELEMENT student (
+  first-name,
+  middle-name,
+  last-name,
+  preferred-name,
+  student-id,
+  email,
+  phone,
+  undergrad-year,
+  gpa,
+  major,
+  minor,
+  enrollment-status,
+  advisor,
+  enrollment-date,
+  graduation-date
+)>
+
+<!ELEMENT first-name (#PCDATA)>
+<!ELEMENT middle-name (#PCDATA)>
+<!ELEMENT last-name (#PCDATA)>
+<!ELEMENT preferred-name (#PCDATA)>
+<!ELEMENT student-id (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT undergrad-year (#PCDATA)>
+<!ELEMENT gpa (#PCDATA)>
+<!ELEMENT major (#PCDATA)>
+<!ELEMENT minor (#PCDATA)>
+<!ELEMENT enrollment-status (#PCDATA)>
+<!ELEMENT advisor (#PCDATA)>
+<!ELEMENT enrollment-date (#PCDATA)>
+<!ELEMENT graduation-date (#PCDATA)>
