@@ -1,13 +1,19 @@
 <!ELEMENT student-records (student+)>
+<!ELEMENT student (name-info, student-contact, academic-history)>
+<!ATTLIST student
+    id ID #REQUIRED>
 
-<!ELEMENT student (
+
+<!ELEMENT name-info (
   first-name,
   middle-name,
   last-name,
-  preferred-name,
-  student-id,
-  email,
-  phone,
+  preferred-name
+)>
+
+<!ELEMENT student-contact (email, phone)>
+
+<!ELEMENT academic-history (
   undergrad-year,
   gpa,
   major,
@@ -22,7 +28,6 @@
 <!ELEMENT middle-name (#PCDATA)>
 <!ELEMENT last-name (#PCDATA)>
 <!ELEMENT preferred-name (#PCDATA)>
-<!ELEMENT student-id (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT undergrad-year (#PCDATA)>
