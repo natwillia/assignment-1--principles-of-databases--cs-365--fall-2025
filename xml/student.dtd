@@ -1,8 +1,9 @@
 <!ELEMENT student-records (student+)>
-<!ELEMENT student (name-info, student-contact, academic-history)>
-<!ATTLIST student
-    id ID #REQUIRED>
 
+<!ELEMENT student (name-info, student-contact, academic-history)>
+
+<!ATTLIST student
+    id CDATA #REQUIRED>
 
 <!ELEMENT name-info (
   first-name,

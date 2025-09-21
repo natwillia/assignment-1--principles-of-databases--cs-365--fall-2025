@@ -3,93 +3,118 @@
 <!DOCTYPE student-records SYSTEM "student.dtd">
 
 <student-records>
-  <student>
-    <first-name>Gordon</first-name>
-    <middle-name>Matthew</middle-name>
-    <last-name>Sumner</last-name>
-    <preferred-name>Sting</preferred-name>
-    <student-id>1234567</student-id>
-    <email>sting@thepolice.com</email>
-    <phone>212.123.4567</phone>
-    <undergrad-year>first year</undergrad-year>
-    <gpa>4.0</gpa>
-    <major>Music</major>
-    <minor>English</minor>
-    <enrollment-status>full-time</enrollment-status>
-    <advisor>Andy Summers</advisor>
-    <enrollment-date>08-25-1969</enrollment-date>
-    <graduation-date>05-01-1973</graduation-date>
+  <student id="1234567">
+    <name-info>
+      <first-name>Gordon</first-name>
+      <middle-name>Matthew</middle-name>
+      <last-name>Sumner</last-name>
+      <preferred-name>Sting</preferred-name>
+    </name-info>
+    <student-contact>
+      <email>sting@thepolice.com</email>
+      <phone>212.123.4567</phone>
+    </student-contact>
+    <academic-history>
+      <undergrad-year>first-year</undergrad-year>
+      <gpa>4.0</gpa>
+      <major>Music</major>
+      <minor>English</minor>
+      <enrollment-status>full-time</enrollment-status>
+      <advisor>Andy Summers</advisor>
+      <enrollment-date>08-25-1969</enrollment-date>
+      <graduation-date>05-01-1973</graduation-date>
+    </academic-history>
   </student>
 
-  <student>
-    <first-name>Kim</first-name>
-    <middle-name></middle-name>
-    <last-name>Thayil</last-name>
-    <preferred-name></preferred-name>
-    <student-id>4567890</student-id>
-    <email>kim@soundgarden.com</email>
-    <phone>206.123.4567</phone>
-    <undergrad-year>second year</undergrad-year>
-    <gpa>3.0</gpa>
-    <major>Philosophy</major>
-    <minor>Music</minor>
-    <enrollment-status>full-time</enrollment-status>
-    <advisor>Chris Cornell</advisor>
-    <enrollment-date>08-25-1978</enrollment-date>
-    <graduation-date>05-01-1982</graduation-date>
+  <student id="4567890">
+    <name-info>
+      <first-name>Kim</first-name>
+      <middle-name></middle-name>
+      <last-name>Thayil</last-name>
+      <preferred-name></preferred-name>
+    </name-info>
+    <student-contact>
+      <email>kim@soundgarden.com</email>
+      <phone>206.123.4567</phone>
+    </student-contact>
+    <academic-history>
+      <undergrad-year>second year</undergrad-year>
+      <gpa>3.0</gpa>
+      <major>Philosophy</major>
+      <minor>Music</minor>
+      <enrollment-status>full-time</enrollment-status>
+      <advisor>Chris Cornell</advisor>
+      <enrollment-date>08-25-1978</enrollment-date>
+      <graduation-date>05-01-1982</graduation-date>
+    </academic-history>
   </student>
 
-  <student>
-    <first-name>Saul</first-name>
-    <middle-name></middle-name>
-    <last-name>Hudson</last-name>
-    <preferred-name>Slash</preferred-name>
-    <student-id>8302438</student-id>
-    <email>slash@gnr.com</email>
-    <phone>213.456.8392</phone>
-    <undergrad-year>fourth year</undergrad-year>
-    <gpa>2.0</gpa>
-    <major>Music</major>
-    <minor>Criminal Justice</minor>
-    <enrollment-status>part-time</enrollment-status>
-    <advisor>Axl Rose</advisor>
-    <enrollment-date>08-25-1983</enrollment-date>
-    <graduation-date>05-01-1987</graduation-date>
+  <student id="8302438">
+    <name-info>
+      <first-name>Saul</first-name>
+      <middle-name></middle-name>
+      <last-name>Hudson</last-name>
+      <preferred-name>Slash</preferred-name>
+    </name-info>
+    <student-contact>
+      <email>slash@gnr.com</email>
+      <phone>213.456.8392</phone>
+    </student-contact>
+    <academic-history>
+      <undergrad-year>fourth year</undergrad-year>
+      <gpa>2.0</gpa>
+      <major>Music</major>
+      <minor>Criminal Justice</minor>
+      <enrollment-status>part-time</enrollment-status>
+      <advisor>Axl Rose</advisor>
+      <enrollment-date>08-25-1983</enrollment-date>
+      <graduation-date>05-01-1987</graduation-date>
+    </academic-history>
   </student>
 
-  <student>
-    <first-name>Emily</first-name>
-    <middle-name></middle-name>
-    <last-name>Kokal</last-name>
-    <preferred-name></preferred-name>
-    <student-id>2983928</student-id>
-    <email>emily@warpaint.com</email>
-    <phone>213.123.7654</phone>
-    <undergrad-year>third year</undergrad-year>
-    <gpa>3.8</gpa>
-    <major>Political Science</major>
-    <minor>Law</minor>
-    <enrollment-status>full-time</enrollment-status>
-    <advisor>Jenny Lee Lindberg</advisor>
-    <enrollment-date>08-25-1998</enrollment-date>
-    <graduation-date>05-01-2002</graduation-date>
+  <student id="2983928">
+    <name-info>
+      <first-name>Emily</first-name>
+      <middle-name></middle-name>
+      <last-name>Kokal</last-name>
+      <preferred-name></preferred-name>
+    </name-info>
+    <student-contact>
+      <email>emily@warpaint.com</email>
+      <phone>213.123.7654</phone>
+    </student-contact>
+    <academic-history>
+      <undergrad-year>third year</undergrad-year>
+      <gpa>3.8</gpa>
+      <major>Political Science</major>
+      <minor>Law</minor>
+      <enrollment-status>full-time</enrollment-status>
+      <advisor>Jenny Lee Lindberg</advisor>
+      <enrollment-date>08-25-1998</enrollment-date>
+      <graduation-date>05-01-2002</graduation-date>
+    </academic-history>
   </student>
 
-  <student>
-    <first-name>Mike</first-name>
-    <middle-name></middle-name>
-    <last-name>Inez</last-name>
-    <preferred-name></preferred-name>
-    <student-id>7645726</student-id>
-    <email>mike@aic.com</email>
-    <phone>213.444.3323</phone>
-    <undergrad-year>second year</undergrad-year>
-    <gpa>4.0</gpa>
-    <major>Business Management</major>
-    <minor>Math</minor>
-    <enrollment-status>full-time</enrollment-status>
-    <advisor>Jerry Cantrell</advisor>
-    <enrollment-date>08-25-1984</enrollment-date>
-    <graduation-date>05-01-1988</graduation-date>
+  <student id="7645726">
+    <name-info>
+      <first-name>Mike</first-name>
+      <middle-name></middle-name>
+      <last-name>Inez</last-name>
+      <preferred-name></preferred-name>
+    </name-info>
+    <student-contact>
+      <email>mike@aic.com</email>
+      <phone>213.444.3323</phone>
+    </student-contact>
+    <academic-history>
+      <undergrad-year>second year</undergrad-year>
+      <gpa>4.0</gpa>
+      <major>Business Management</major>
+      <minor>Math</minor>
+      <enrollment-status>full-time</enrollment-status>
+      <advisor>Jerry Cantrell</advisor>
+      <enrollment-date>08-25-1984</enrollment-date>
+      <graduation-date>05-01-1988</graduation-date>
+    </academic-history>
   </student>
 </student-records>
