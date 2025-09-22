@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  background-color: indigo;
+  width: 1200px;
+  margin: 50px auto;
+  padding: 35px;
+  font-family: 'PT Serif', serif;
+}
+
+:root::before {
+  content: 'Student Records';
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: rgb(7, 112, 7);
+  text-shadow: 3px 3px black;
+}
+
+student {
+  display: block;
+  background-color: rebeccapurple;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px  black;
+  margin: 30px;
+  padding: 30px;
+}
+
+student::before {
+  display: block;
+  content: 'Student ID: ' attr(id);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: rgb(232, 179, 32);
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px black;
+  text-align: center;
+}
+
+name-info {
+  display: block;
+  background-color: #4b0082;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px dotted white;
+  border-radius: 10px;
+}
+
+name-info:hover {
+  background-color: #5a00a3;
+}
+
+name-info::before {
+  content: 'Name Information';
+  color: rgb(190, 80, 179);
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px black;
+  margin-bottom: 10px;
+}
+
+student-contact {
+  display: block;
+  background-color: #4b0082;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px dotted white;
+  border-radius: 10px;
+}
+
+student-contact:hover {
+  background-color: #5a00a3;
+}
+
+student-contact::before {
+  content: 'Contact Information';
+  color: rgb(6, 156, 24);
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px black;
+  margin-bottom: 10px;
+}
+
+academic-history {
+  display: block;
+  background-color: #4b0082;
+  padding: 12px;
+  border: 2px dotted white;
+  border-radius: 10px;
+}
+
+academic-history:hover {
+  background-color: #5a00a3;
+}
+
+academic-history::before {
+  content: 'Academic History';
+  color:#d2ab0e;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px black;
+  margin-bottom: 10px;
+}
