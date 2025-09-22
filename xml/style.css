@@ -105,3 +105,119 @@ academic-history::before {
   text-shadow: 2px 2px black;
   margin-bottom: 10px;
 }
+
+first-name::before {
+  content: 'First Name: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+middle-name:not(:empty)::before {
+  content: 'Middle Name: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+last-name::before {
+  content: 'Last Name: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+preferred-name:not(:empty)::before {
+  content: 'Preferred Name: "';
+  color: powderblue;
+  font-style: italic;
+}
+
+preferred-name:not(:empty)::after {
+  content: ' "';
+  font-style: italic;
+  color: powderblue;
+}
+
+preferred-name:not(:empty) {
+  font-style: italic;
+  color: powderblue;
+  font-weight: bold;
+}
+
+email::before {
+  content: 'Email: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+phone::before {
+  content: 'Phone: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+undergrad-year::before {
+  content: 'Undergrad Year: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+gpa::before {
+  content: 'GPA: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+major::before {
+  content: 'Major: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+minor::before {
+  content: 'Minor: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+enrollment-status::before {
+  content: 'Enrollment Status: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+advisor::before {
+  content: 'Advisor: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+enrollment-date::before {
+  content: 'Enrollment Date: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+graduation-date::before {
+  content: 'Graduation Date: ';
+  font-weight: 600;
+  text-shadow: 2px 2px black;
+}
+
+first-name,
+middle-name,
+last-name,
+preferred-name,
+email,
+phone,
+undergrad-year,
+gpa,
+major,
+minor,
+enrollment-status,
+advisor,
+enrollment-date,
+graduation-date {
+  display: block;
+  color: white;
+  font-size: 1.25rem;
+  margin: 7px;
+}
