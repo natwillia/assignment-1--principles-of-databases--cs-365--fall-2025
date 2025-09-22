@@ -1,10 +1,22 @@
+<!-- ===============================================================================
+  The student-records root element must contain at least one or more student element.
+  ============================================================================== -->
 <!ELEMENT student-records (student+)>
 
+<!-- =================================================================================
+  Each student element should include name-info, student-contact, and academic-history.
+  ================================================================================ -->
 <!ELEMENT student (name-info, student-contact, academic-history)>
 
+<!-- =================================================================================
+  Each student should have a unique id attribute.
+  ================================================================================ -->
 <!ATTLIST student
     id CDATA #REQUIRED>
 
+<!-- ================================================================================
+  The name-info element contains first, middle, last, and preferred name.
+  =============================================================================== -->
 <!ELEMENT name-info (
   first-name,
   middle-name,
@@ -12,8 +24,14 @@
   preferred-name
 )>
 
+<!-- ================================================================================
+  The student-contact element includes email and phone.
+  =============================================================================== -->
 <!ELEMENT student-contact (email, phone)>
 
+<!-- ================================================================================
+  The academic-history element contains details about the student's academics.
+  =============================================================================== -->
 <!ELEMENT academic-history (
   undergrad-year,
   gpa,
@@ -25,6 +43,9 @@
   graduation-date
 )>
 
+<!-- ================================================================================
+  Store plain text data for each element.
+  =============================================================================== -->
 <!ELEMENT first-name (#PCDATA)>
 <!ELEMENT middle-name (#PCDATA)>
 <!ELEMENT last-name (#PCDATA)>
