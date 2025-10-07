@@ -1,0 +1,28 @@
+<!-- The root element 'students' contains one or more 'student' elements -->
+<!ELEMENT students (student+)>
+
+<!-- The 'student' element contains personal and academic information.
+     The '+' means there must be at least one student element in the XML. -->
+<!ELEMENT student (first, middle?, last, preferred?, email, phone?, year, gpa, major, minor, status, advisor, admit, grad?)>
+<!-- The 'student' element must have a unique 'id' attribute -->
+<!ATTLIST student id CDATA #REQUIRED>
+
+<!-- Individual elements for student names -->
+<!ELEMENT first (#PCDATA)>        <!-- First name of the student -->
+<!ELEMENT middle (#PCDATA)>       <!-- Middle name (optional in 'student' element) -->
+<!ELEMENT last (#PCDATA)>         <!-- Last name of the student -->
+<!ELEMENT preferred (#PCDATA)>    <!-- Preferred name or nickname (optional) -->
+
+<!-- Contact information elements -->
+<!ELEMENT email (#PCDATA)>        <!-- Email address -->
+<!ELEMENT phone (#PCDATA)>        <!-- Phone number (optional) -->
+
+<!-- Academic information elements -->
+<!ELEMENT year (#PCDATA)>         <!-- Academic year (e.g., freshman, sophomore) -->
+<!ELEMENT gpa (#PCDATA)>          <!-- Grade Point Average -->
+<!ELEMENT major (#PCDATA)>        <!-- Major field of study -->
+<!ELEMENT minor (#PCDATA)>        <!-- Minor field of study (optional) -->
+<!ELEMENT status (#PCDATA)>       <!-- Enrollment status (e.g., full-time, part-time) -->
+<!ELEMENT advisor (#PCDATA)>      <!-- Academic advisor assigned to the student -->
+<!ELEMENT admit (#PCDATA)>        <!-- Admission date -->
+<!ELEMENT grad (#PCDATA)>         <!-- Graduation date (optional) -->
